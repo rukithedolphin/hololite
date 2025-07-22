@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hololite - Talents</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f6ff; color: #333; }
+    header { background-color: #5f70d9; color: white; padding: 1rem; text-align: center; }
+    nav { background: #4e5bd4; padding: 0.5rem; text-align: center; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
+    .section { padding: 2rem; max-width: 900px; margin: auto; }
+    .talent { display: flex; flex-wrap: wrap; gap: 2rem; }
+    .talent-card { background: white; border-radius: 12px; padding: 1rem; flex: 1 1 250px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    .talent-card img { max-width: 100%; border-radius: 10px; }
+    footer { text-align: center; padding: 1rem; background: #eee; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>?? Hololite ??</h1>
+  <p>Virtual Talents, Real Dreams.</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="talents.html">Talents</a>
+  <a href="media.html">Media</a>
+  <a href="news.html">News</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<section class="section">
+  <h2>?? Meet Our Talents</h2>
+  <div class="talent">
+    <div class="talent-card">
+      <img src="https://via.placeholder.com/250x250.png?text=Hoshika" alt="Hoshika" />
+      <h3>Hoshika</h3>
+      <p>Debut Date: July 2025</p>
+      <p>The starlight songstress with a dream to light up your night sky.</p>
+      <p>
+        <a href="#">YouTube</a> | <a href="#">Twitter</a> | <a href="#">Twitch</a>
+      </p>
+    </div>
+    <!-- Add more talent cards here -->
+  </div>
+</section>
+
+<footer>
+  © 2025 Hololite — All rights reserved.
+</footer>
+
+</body>
+</html>
